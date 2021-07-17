@@ -32,7 +32,6 @@ If you go with Viper I would check out the items below, as they really made this
 - Back up Sim Cards
   - I always kept a few of these around, incase I was having connectivity issues
   - The sim card slot for the router accepts the old school sim cards which are the size of SD cards, the sims in this kit will fit any device!
-
     <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=itsmyfirstnam-20&marketplace=amazon&amp;region=US&placement=B071FM63JT&asins=B071FM63JT&linkId=2f08f72d0c7042d8db2cdd7b50fc2a4d&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
 
