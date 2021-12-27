@@ -71,21 +71,21 @@ aux_links:
 aux_links_new_tab: true
 
 
-collections:
-  tutorials:
-    permalink: "/:collection/:path/"
-    output: true
-  networking:
-    permalink: "/:collection/:path/"
-    output: true
+# collections:
+#   tutorials:
+#     permalink: "/:collection/:path/"
+#     output: true
+#   networking:
+#     permalink: "/:collection/:path/"
+#     output: true
 
-just_the_docs:
-  collections:
-    networking:
-      name: Networking
-      nav_exclude: false
-    tutorials:
-      name: Tutorials
+# just_the_docs:
+#   collections:
+#     networking:
+#       name: Networking
+#       nav_exclude: false
+#     tutorials:
+#       name: Tutorials
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
