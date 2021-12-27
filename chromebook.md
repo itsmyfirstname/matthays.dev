@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-# has_children: yes
+has_children: yes
 nav_order: 1
 ---
 
