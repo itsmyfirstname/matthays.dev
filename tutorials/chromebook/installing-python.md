@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Python
-parent: Install
-grand_parent: Chromebook
+parent: Tutorials
+# grand_parent: Chromebook
 # nav_order: 2
 # nav_exclude: true
 ---

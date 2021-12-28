@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Linux
-parent: Install
-grand_parent: Chromebook
+parent: Tutorials
+# grand_parent: Chromebook
 # nav_order: 1
 # nav_exclude: true
 ---

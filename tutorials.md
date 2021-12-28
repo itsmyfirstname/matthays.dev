@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Home
+title: Tutorials
 has_children: yes
 nav_order: 1
 ---
 
 ## Chromebook
 
-[test](../chromebook/main)
+[test](./tutorials/chromebook/installing-r.html)
 
 ## Mac
 

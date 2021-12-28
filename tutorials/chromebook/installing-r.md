@@ -1,8 +1,8 @@
 ---
 layout: default
 title: R
-parent: Install
-grand_parent: Chromebook
+parent: Tutorials
+# grand_parent: Chromebook
 # nav_order: 3
 # nav_exclude: true
 ---
