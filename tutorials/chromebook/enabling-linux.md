@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Linux
-parent: Tutorials
+# parent: Tutorials
 # grand_parent: Chromebook
 # nav_order: 1
-# nav_exclude: true
+nav_exclude: true
 ---
 
 # Overview

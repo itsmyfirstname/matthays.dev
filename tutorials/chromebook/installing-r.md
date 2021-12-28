@@ -1,25 +1,21 @@
 ---
 layout: default
 title: R
-parent: Tutorials
+# parent: Tutorials
 # grand_parent: Chromebook
 # nav_order: 3
-# nav_exclude: true
+nav_exclude: true
 ---
+# Install R on Chromebook
 
-## Start Here
+## Open Terminal
 
-In order to execute the commands below hit the search button and type `linux`,
+In order to execute the following commands hit the search key, type `terminal`, and click to open the app.
 
-you should see one of those hacker windows.
+Should look something like this,  :
+    ![](../../assets/chrome-os-linux-search.png)
 
-copy and paste one line at a time.
-
-and read the logs to make sure the command was successfull.
-
-
-### Chromebooks with an Intel or AMD CPU
-This tutorial will only work on Chromebooks with an Intel or AMD CPU (with Linux Apps Support) and not those with an ARM64 architecture CPU.
+## Install Commands
 
 ```shell
 echo "deb http://cloud.r-project.org/bin/linux/debian buster-cran40/" | sudo tee /etc/apt/sources.list.d/r.list
@@ -38,7 +34,7 @@ sudo apt -f install
 ```
 
 
-
+<!-- 
 # Second Pathway
 If the method above doesnt work let me know!
 
@@ -74,4 +70,4 @@ dpkg -i rstudio.deb
 
 ###### reference: https://blog.sellorm.com/2018/12/20/installing-r-and-rstudio-on-a-chromebook/
 
-
+ -->
