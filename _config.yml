@@ -1,5 +1,5 @@
 title: "It's My First Name"
 remote_theme: pmarsceill/just-the-docs
-theme: just-the-docs
+# theme: just-the-docs
 color_scheme: "dark"
 search_enabled: true
