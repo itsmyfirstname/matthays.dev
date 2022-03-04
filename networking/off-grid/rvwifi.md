@@ -34,8 +34,7 @@ If you go with Viper I would check out the items below, as they really made this
 
 - Cell Booster
   - Boosts primary AT&T and Verizon bands
-  - <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=itsmyfirstnam-20&marketplace=amazon&amp;region=US&placement=B07ML28SWS&asins=B07ML28SWS&linkId=00f4a5fba07cf3dd5246b9bc182a0763&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
+  - <a target="_blank" href="https://www.amazon.com/gp/product/B07ML28SWS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=itsmyfirstn0a-20&linkCode=ur2&linkId=6589347d1344650f492b951498526031&camp=1789&creative=9325">Cell Booster</a>
 
 - Back up Sim Cards
   - I always kept a few of these around, incase I was having connectivity issues
