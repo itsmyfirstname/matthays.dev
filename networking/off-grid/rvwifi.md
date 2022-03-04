@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Mobile WiFi
+title: Off Grid Networking
+parent: Networking
+has_children: no
+nav_order: 1
 ---
 
 # Overview
