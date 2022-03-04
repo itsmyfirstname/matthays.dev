@@ -33,12 +33,13 @@ I went with AT&T and had minimal issues. Once I installed the signal booster I w
 
 If you go with Viper I would check out the items below, as they really made this a solid choice. 
 
+---
 #### 4g Signal Booster
 ---
 Boosts primary AT&T, T-Mobile and Verizon bands
 > [Cell Phone Signal Booster](https://amzn.to/35Rusb5)
 
-
+---
 #### Net10 Sim Cards
 ---
 Back up ATT Sim Cards (Check with Viper if these work with their pink plan)
@@ -48,6 +49,9 @@ The sim card slot for the router accepts the old school sim cards which are the 
 
 >[Sim Cards](https://amzn.to/3pz3Rqo)
 
-- Cell Tower Tracker
-  - This site is very helpful if figuring what bands are available, and which band you can lock to for the strongest signal. 
-    - [Cell Mapper](https://www.cellmapper.net/map) 
+---
+#### Cell Tower Tracker
+---
+
+This site is very helpful if figuring what bands are available, and which band you can lock to for the strongest signal. 
+  - [Cell Mapper](https://www.cellmapper.net/map) 
