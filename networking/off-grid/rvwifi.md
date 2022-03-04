@@ -40,7 +40,7 @@ If you go with Viper I would check out the items below, as they really made this
   - I always kept a few of these around, incase I was having connectivity issues
   - AT&T is not a fan of these grandfathered unlimited plans, so they occasionally make system changes that invalidates sim cards, requiring us to re-register sims. 
   - The sim card slot for the router accepts the old school sim cards which are the size of SD cards, the sims in this kit will fit any device!
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=itsmyfirstn0a-20&language=en_US&marketplace=amazon&region=US&placement=B077RNJKB5&asins=B077RNJKB5&linkId=f7b4c04a1712f678a701de786ea3652b&show_border=true&link_opens_in_new_window=true"></iframe>
+  - <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=itsmyfirstn0a-20&language=en_US&marketplace=amazon&region=US&placement=B077RNJKB5&asins=B077RNJKB5&linkId=f7b4c04a1712f678a701de786ea3652b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 - Cell Tower Tracker
   - This site is very helpful if figuring what bands are available, and which band you can lock to for the strongest signal. 
