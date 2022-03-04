@@ -40,8 +40,7 @@ If you go with Viper I would check out the items below, as they really made this
   - I always kept a few of these around, incase I was having connectivity issues
   - AT&T is not a fan of these grandfathered unlimited plans, so they occasionally make system changes that invalidates sim cards, requiring us to re-register sims. 
   - The sim card slot for the router accepts the old school sim cards which are the size of SD cards, the sims in this kit will fit any device!
-
-<a href="https://www.amazon.com/Net10-Bring-3-1-Compatible/dp/B077RNJKB5?crid=VIFPVB34QH7H&keywords=4g+sim+card&qid=1646414889&sprefix=4g+sim+card%2Caps%2C105&sr=8-127&linkCode=li3&tag=itsmyfirstn0a-20&linkId=a4c85a87815f63a55cecdb2abd23a801&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B077RNJKB5&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=itsmyfirstn0a-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=itsmyfirstn0a-20&language=en_US&l=li3&o=1&a=B077RNJKB5" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=itsmyfirstn0a-20&language=en_US&marketplace=amazon&region=US&placement=B077RNJKB5&asins=B077RNJKB5&linkId=f7b4c04a1712f678a701de786ea3652b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 - Cell Tower Tracker
   - This site is very helpful if figuring what bands are available, and which band you can lock to for the strongest signal. 
