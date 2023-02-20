@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Home
-has_children: yes
-nav_order: 1
+title: Welcome to my website
+feature_image: "https://picsum.photos/1300/400?image=989"
+feature_text: |
+  ## Hello world
 ---
-
-This is a simple little blog containing instructions to help out family and friends with tasks that would typically be best solved in person
-
-Figure this is the next best thing, at least I can show some pictures
+{% include site-search.html %}
+There isn't much going on here yet, but watch this space
