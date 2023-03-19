@@ -55,3 +55,7 @@ pnpm lint
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+
+## GH-Pages Publish
+`git add dist && git commit -m 'adding dist subtree'`
+`git subtree push --prefix dist origin gh-pages`
