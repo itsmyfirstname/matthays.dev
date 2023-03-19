@@ -7,14 +7,18 @@
         <v-icon icon="mdi-tilde"></v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <v-btn
-          v-for="link in links"
-          :key="link"
-          variant="text"
-          to="/about"
-        >
-          {{ link }}
-        </v-btn>
+      <v-btn to="about">
+         about
+      </v-btn>
+      
+      <v-btn to="resume">
+         resume
+      </v-btn>
+      
+      <v-btn to="blog">
+         blog
+      </v-btn>
+      
     </v-app-bar>
   <v-main>
     <router-view />
@@ -26,13 +30,14 @@
 <script>
 
 export default {
-  data: () => ({
-    links: [
-      'about',
-      'resume',
-      'blog',
-    ],
-  }),
+  // data: () => ({
+  //   links:
+  //     {
+  //       about: 'about',
+  //       resume: 'resume',
+  //       blog: 'blog'
+  //     }
+  // }),
 }
 
 </script>
