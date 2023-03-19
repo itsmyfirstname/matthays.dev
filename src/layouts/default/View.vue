@@ -1,22 +1,10 @@
 <template>
   <v-app>
     <v-app-bar theme="dark" rounded>
-      <!-- <v-img
-        src="src/assets/logo.png"
-        max-height="140"
-        max-width="140"
-      ></v-img> -->
-
-      <v-btn
-        class="ma-2"
-        color="primary"
-        to="/home"
-      >
-        cd
-        <v-icon
-          end
-          icon="mdi-tilde"
-        ></v-icon>
+      <v-btn to="/">
+        <v-icon start icon="mdi-chevron-right" color="green"></v-icon>
+         cd
+        <v-icon icon="mdi-tilde"></v-icon>
       </v-btn>
       <v-spacer></v-spacer>
       <v-btn
