@@ -1,16 +1,29 @@
 <template>
   <v-app>
     <v-app-bar theme="dark" rounded>
-      <v-img
+      <!-- <v-img
         src="src/assets/logo.png"
         max-height="140"
         max-width="140"
-      ></v-img>
+      ></v-img> -->
+
+      <v-btn
+        class="ma-2"
+        color="primary"
+        to="/home"
+      >
+        cd
+        <v-icon
+          end
+          icon="mdi-tilde"
+        ></v-icon>
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn
           v-for="link in links"
           :key="link"
           variant="text"
+          to="/about"
         >
           {{ link }}
         </v-btn>
@@ -23,13 +36,15 @@
 
 
 <script>
+
 export default {
-    data: () => ({
-      links: [
-        'about',
-        'resume',
-        'blog',
-      ],
-    }),
-  }
+  data: () => ({
+    links: [
+      'about',
+      'resume',
+      'blog',
+    ],
+  }),
+}
+
 </script>
