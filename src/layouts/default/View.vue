@@ -1,13 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar flat>
-    <v-app-bar-title>
-      <v-icon icon="mdi-circle-slice-4" />
-
-      Base Preset
-    </v-app-bar-title>
-  </v-app-bar>
-
+    <v-app-bar theme="dark" rounded>
+      <v-img
+        src="src/assets/logo.png"
+        max-height="140"
+        max-width="140"
+      ></v-img>
+      <v-spacer></v-spacer>
+      <v-btn
+          v-for="link in links"
+          :key="link"
+          variant="text"
+        >
+          {{ link }}
+        </v-btn>
+    </v-app-bar>
   <v-main>
     <router-view />
   </v-main>
@@ -15,6 +22,14 @@
 </template>
 
 
-<script setup>
-  //
+<script>
+export default {
+    data: () => ({
+      links: [
+        'about',
+        'resume',
+        'blog',
+      ],
+    }),
+  }
 </script>
