@@ -39,3 +39,7 @@ export default defineConfig({
     port: 3000,
   },
 })
+
+module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/matthays.dev/" : "/",
+};
