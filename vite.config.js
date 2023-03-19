@@ -8,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  publicPath: process.env.NODE_ENV === 'production'? '/matthays.dev/' : '/',
   plugins: [
     vue({ 
       template: { transformAssetUrls }
@@ -40,6 +41,6 @@ export default defineConfig({
   },
 })
 
-module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/matthays.dev/" : "/",
-};
+// module.exports = {
+//   publicPath: process.env.NODE_ENV === "production" ? "/matthays.dev/" : "/",
+// };
