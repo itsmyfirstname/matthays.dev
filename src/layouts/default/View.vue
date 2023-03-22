@@ -1,24 +1,23 @@
 <template>
-  <v-app>
-    <v-app-bar theme="dark" rounded>
+  <v-app class="pa-md-16">
+    <v-app-bar color="background">
       <v-btn to="/">
-        <v-icon start icon="mdi-chevron-right" color="green"></v-icon>
+        <v-icon end icon="mdi-chevron-right" color="highlight"></v-icon>
          cd
-        <v-icon icon="mdi-tilde"></v-icon>
+        <v-icon end icon="mdi-tilde"></v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <v-btn to="about">
-         about
-      </v-btn>
-      
-      <v-btn to="resume">
-         resume
-      </v-btn>
-      
-      <v-btn to="blog">
-         blog
-      </v-btn>
-      
+        <v-btn to="about">
+          about
+        </v-btn>
+        
+        <v-btn to="resume">
+          resume
+        </v-btn>
+        
+        <v-btn to="blog">
+          blog
+        </v-btn>
     </v-app-bar>
   <v-main>
     <router-view />
