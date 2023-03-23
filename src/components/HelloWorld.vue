@@ -1,19 +1,16 @@
 <template>
-  <v-container fluid bg>
-    <v-row no-gutters fluid align-content="end">
-      <v-col align-self="center">
-        <v-sheet color="primary" width="30%">
-          <div class="typewriter">
-            <h1>howdy! i'm matt...</h1>
-          </div>
-        </v-sheet>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-app>
+    <v-card class="mx-auto" color="primary">
+    <div class="typewriter">
+      <v-card-text>
+        <h1 class="pa-2">howdy! i'm matt...</h1>
+      </v-card-text>
+    </div>
+    </v-card>
+</v-app>
 </template>
 
 <style scoped>
-
 .typewriter h1 {
     overflow: scroll; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #7CDEDC; /* The typwriter cursor */
@@ -39,13 +36,4 @@
 </style>
 
 <script>
-// export default {
-//     data: () => ({
-//       links: [
-//         'about',
-//         'resume',
-//         'blog',
-//       ],
-//     }),
-//   }
 </script>
