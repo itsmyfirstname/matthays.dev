@@ -8,19 +8,16 @@
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 
-// Composables
 import { createVuetify } from 'vuetify'
 
 
 const myCustomLightTheme = {
-  dark: false,
+  dark: true,
   colors: {
-    background: '#474954',
-    surface: '#9E788F',
-    primary: '#7284A8',
-    'primary-darken-1': '#6ABEA7',
-    secondary: '#A9B3CE',
-    'secondary-darken-1': '#9FFFF5',
+    background: '#807E83',
+    surface: '#BAB384',
+    primary: '#34424C',
+    secondary: '#A0A8A2',
     highlight: '#7CDEDC',
     error: '#B00020',
     info: '#2196F3',

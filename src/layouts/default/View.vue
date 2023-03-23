@@ -1,6 +1,6 @@
 <template>
   <v-app class="pa-md-16">
-    <v-app-bar color="background">
+    <v-app-bar color="primary">
       <v-btn to="/">
         <v-icon end icon="mdi-chevron-right" color="highlight"></v-icon>
          cd
@@ -27,16 +27,4 @@
 
 
 <script>
-
-export default {
-  // data: () => ({
-  //   links:
-  //     {
-  //       about: 'about',
-  //       resume: 'resume',
-  //       blog: 'blog'
-  //     }
-  // }),
-}
-
 </script>
