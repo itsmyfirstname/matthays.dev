@@ -13,7 +13,7 @@
 <style scoped>
 .typewriter h1 {
     overflow: scroll; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #7CDEDC; /* The typwriter cursor */
+    border-right: .15em solid #7CDEDC; /* The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
