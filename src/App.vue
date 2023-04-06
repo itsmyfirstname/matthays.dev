@@ -19,7 +19,7 @@
         blog
       </v-btn>
     </v-app-bar>
-    <v-parallax src="background.png">
+    <v-parallax src="/background.png">
     <router-view />
       </v-parallax>
   </v-app>
