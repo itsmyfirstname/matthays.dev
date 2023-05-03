@@ -1,15 +1,34 @@
 <template>
-  <div class="d-flex flex-column fill-height justify-center align-center text-white">
-    <div class="typewriter">
-      <v-card-text>
-        <h1>Nice to meet you</h1>
-      </v-card-text>
+  <v-parallax src="/background.png" scale=".5">
+    <div class="d-flex flex-column fill-height justify-center align-center text-white">
+      <div class="typewriter">
+        <!-- <v-card> -->
+          <v-card-text>
+            <h1>hi...im matt</h1>
+          </v-card-text>
+        <!-- </v-card> -->
+      </div>
     </div>
-  </div>
+  </v-parallax>
+  
+  <!-- <v-parallax src="/background2.png" scale="1"> -->
+    <v-container>
+      <Timeline></Timeline>
+    </v-container>
+  <!-- </v-parallax> -->
+
+  <!-- <v-container>
+  </v-container> -->
 </template>
 
 <script>
+import Timeline from '@/components/Timeline.vue'
 
+export default {
+  components: {
+    Timeline
+  }
+}
 </script>
 
 <style>
