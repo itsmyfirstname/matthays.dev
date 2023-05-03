@@ -1,41 +1,28 @@
 <template>
-  <v-timeline class="pt-16">
+  <v-timeline class="fill-height justify-center align-center">
     <v-timeline-item v-for="(year, i) in years" :key="i" :dot-color="year.color" size="large">
       <template v-slot:opposite>
         <v-chip :class="` text-${year.color}'`" size='x-large' label variant="elevated">
           {{ year.year }}
         </v-chip>
       </template>
-      <div class="pt-16">
+      <div>
         <!-- TODO: implement card reveal https://vuetifyjs.com/en/components/cards/#card-reveal -->
-        <v-card :class="`mt-16 headline font-weight-light mb-4`" width="400"
+        <v-card :class="`mt-16 font-weight-light`" width="350"
         color="primary">
           <v-card-item>
             <v-card-title>{{year.title }}</v-card-title>
             <v-card-subtitle>This is a subtitle</v-card-subtitle>
           </v-card-item>
           <v-card-text>
-            {{year.body }}
+            {{year.body}}
           </v-card-text>
         </v-card>
       </div>
     </v-timeline-item>
   </v-timeline>
 
-  <!-- <v-timeline>
-    <v-timeline-item  v-for="(year, i) in years" :key="i" :dot-color="year.color">
-      <v-card width="400">
-        <v-card-title>
-          <h1>
-            {{year.title }}
-          </h1>
-        </v-card-title>
-        <v-card-text>
-          {{year.body }}
-        </v-card-text>
-      </v-card>
-    </v-timeline-item>
-  </v-timeline> -->
+
 </template>
 
 <script>

@@ -1,11 +1,11 @@
 <template>
-    <div class="d-flex flex-column fill-height justify-center align-center text-white">
-        <div class="typewriter">
-          <v-card-text>
-            <h1>Nice to meet you</h1>
-          </v-card-text>
-        </div>
+  <div class="d-flex flex-column fill-height justify-center align-center text-white">
+    <div class="typewriter">
+      <v-card-text>
+        <h1>Nice to meet you</h1>
+      </v-card-text>
     </div>
+  </div>
 </template>
 
 <script>
