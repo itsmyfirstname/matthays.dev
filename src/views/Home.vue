@@ -2,19 +2,25 @@
   <v-parallax src="/background.png" scale=".5">
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
       <div class="typewriter">
-        <!-- <v-card> -->
+        <v-card color="surface">
+          <v-card-title>
+            <h1>Greetings and salutations</h1>
+          </v-card-title>
+          <v-card-subtitle>
+            <h2 class="pa-4">They call me matt, and allegedly im a software engineer</h2>
+
+          </v-card-subtitle>
           <v-card-text>
-            <h1>hi...im matt</h1>
           </v-card-text>
-        <!-- </v-card> -->
+        </v-card>
       </div>
     </div>
   </v-parallax>
   
   <!-- <v-parallax src="/background2.png" scale="1"> -->
-    <v-container>
-      <Timeline></Timeline>
-    </v-container>
+    <Timeline></Timeline>
+    <!-- <v-container>
+    </v-container> -->
   <!-- </v-parallax> -->
 
   <!-- <v-container>
@@ -32,7 +38,7 @@ export default {
 </script>
 
 <style>
-.typewriter h1 {
+.typewriter h2 {
   overflow: scroll;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #7CDEDC;
