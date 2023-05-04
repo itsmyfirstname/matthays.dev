@@ -1,5 +1,5 @@
 <template>
-  <v-parallax src="/background.png" scale=".5">
+  <v-parallax src="/pexels.jpg" scale=".5">
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
       <div class="typewriter">
         <v-card color="surface">
@@ -16,15 +16,10 @@
       </div>
     </div>
   </v-parallax>
-  
-  <!-- <v-parallax src="/background2.png" scale="1"> -->
-    <Timeline></Timeline>
-    <!-- <v-container>
-    </v-container> -->
-  <!-- </v-parallax> -->
 
-  <!-- <v-container>
-  </v-container> -->
+  <!-- <v-parallax src="/pexels.jpg" scale=".5"> -->
+    <Timeline></Timeline>
+  <!-- </v-parallax> -->
 </template>
 
 <script>
@@ -38,6 +33,7 @@ export default {
 </script>
 
 <style>
+
 .typewriter h2 {
   overflow: scroll;
   /* Ensures the content is not revealed until the animation */
