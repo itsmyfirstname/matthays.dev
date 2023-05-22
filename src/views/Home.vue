@@ -1,6 +1,5 @@
 <template>
   <v-parallax src="/R.png" scale=".25">
-
     <v-container fluid="true">
       <v-spacer class="pt-12"></v-spacer>
       <v-row no-gutters>
@@ -22,8 +21,7 @@ import Timeline from '@/components/Timeline.vue';
 
 export default {
   components: {
-    Timeline,
-    ProjectCards
+    Timeline
   },
   methods: {
     getHour: function () {
