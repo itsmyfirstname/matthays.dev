@@ -26,13 +26,13 @@ const customDarkTheme = {
 }
 
 const myCustomLightTheme = {
-  dark: true,
+  dark: false,
   colors: {
-    background: '#807E83',
-    surface: '#BAB384',
-    primary: '#34424C',
-    secondary: '#A0A8A2',
-    highlight: '#7CDEDC',
+    background: '#50514F',
+    surface: '#FDFFF7',
+    primary: '#B4ADEA',
+    secondary: '#59FFA0',
+    highlight: '#FFED65',
     error: '#B00020',
     info: '#2196F3',
     success: '#4CAF50',
@@ -42,7 +42,7 @@ const myCustomLightTheme = {
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
   theme: {
-    defaultTheme: 'customDarkTheme',
+    defaultTheme: 'myCustomLightTheme',
     themes: {
       myCustomLightTheme,
       customDarkTheme

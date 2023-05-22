@@ -1,40 +1,52 @@
 <template>
-  <v-parallax src="/pexels.jpg" scale=".5">
-    <div class="d-flex flex-column fill-height justify-center align-center text-white">
-      <div class="typewriter">
-        <v-card color="surface">
-          <v-card-title>
-            <h1>Greetings and salutations</h1>
-          </v-card-title>
-          <v-card-subtitle>
-            <h2 class="pa-4">They call me matt, and allegedly im a software engineer</h2>
+  <v-parallax src="/R.png" scale=".25">
 
-          </v-card-subtitle>
-          <v-card-text>
-          </v-card-text>
-        </v-card>
-      </div>
-    </div>
+    <v-container fluid="true">
+      <v-spacer class="pt-12"></v-spacer>
+      <v-row no-gutters>
+        <v-col class="mt-16">
+          <p class="text-h1">good </p>
+          <p v-if="morning" class="text-h1">morning</p>
+          <p v-if="afternoon" class="text-h1">afternoon</p>
+          <p v-if="evening" class="text-h1">evening</p>
+        </v-col>
+      </v-row>
+    </v-container>
+
   </v-parallax>
-
-  <!-- <v-parallax src="/pexels.jpg" scale=".5"> -->
-    <Timeline></Timeline>
-  <!-- </v-parallax> -->
+  <!-- <Timeline></Timeline> -->
 </template>
 
 <script>
-import Timeline from '@/components/Timeline.vue'
+import Timeline from '@/components/Timeline.vue';
 
 export default {
   components: {
-    Timeline
-  }
+    Timeline,
+    ProjectCards
+  },
+  methods: {
+    getHour: function () {
+      return new Date().getHours();
+    }
+  },
+  mounted: function () {
+    this.hour = this.getHour(),
+    this.morning = this.hour < 12 
+    this.afternoon = 12 <= this.hour && this.hour < 19
+    this.evening = 19 <= this.hour && this.hour < 24
+  },
+  data: () => ({
+    hour: "",
+    morning: "",
+    afternoon: "",
+    evening: ""
+  }),
 }
 </script>
 
 <style>
-
-.typewriter h2 {
+.typewriter p {
   overflow: scroll;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #7CDEDC;
@@ -46,8 +58,8 @@ export default {
   letter-spacing: .15em;
   /* Adjust as needed */
   animation:
-    typing 3.5s steps(30, end),
-    blink-caret .25s step-end infinite;
+    typing 3.7s steps(20, end),
+    blink-caret .5s step-end infinite;
 }
 
 
