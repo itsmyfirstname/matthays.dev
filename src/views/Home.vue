@@ -5,15 +5,32 @@
       <v-row no-gutters>
         <v-col class="mt-16">
           <p class="text-h1">good </p>
-          <p v-if="morning" class="text-h1">morning</p>
-          <p v-if="afternoon" class="text-h1">afternoon</p>
-          <p v-if="evening" class="text-h1">evening</p>
+          <p v-if="morning" class="text-h1 text-primary">morning</p>
+          <p v-if="afternoon" class="text-h1 text-primary">afternoon</p>
+          <p v-if="evening" class="text-h1 text-primary">evening</p>
+        </v-col>
+      </v-row>
+      <v-spacer class="ma-16"></v-spacer>
+    </v-container>
+    <v-spacer class="mt-12"></v-spacer>
+    <v-container fluid="true">
+      <v-row class="mt-16" >
+        <v-col class="mt-16" cols="10" >
+          <p class="text-h2 text-right">I'm Matt the ... |</p>
+        </v-col>
+        <v-col class="mt-12" cols="auto">
+          <p class="text-h5 text-left text-primary align-bottom">software engineer</p>
+          <p class="text-h5 text-left text-primary align-bottom">maker</p>
+          <p class="text-h5 text-left text-primary align-bottom">student</p>
         </v-col>
       </v-row>
     </v-container>
 
   </v-parallax>
-  <!-- <Timeline></Timeline> -->
+  <v-sheet height="50px" elevation="12" color="background" class="d-flex align-center justify-center flex-wrap text-center mx-auto">
+    <h1 class="text-h4 font-weight-black text-highlight">Timeline</h1>
+  </v-sheet>
+  <Timeline></Timeline>
 </template>
 
 <script>

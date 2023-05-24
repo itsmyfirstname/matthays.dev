@@ -1,6 +1,6 @@
 <template>
-    <!-- <v-parallax src="/S.png" scale=".25"> -->
-            <v-sheet rounded="rounded-shaped" width="56%" color="background" class='mx-auto mt-8 rounded-shaped' elevation="12">
+    <v-parallax src="/S.png" scale=".25">
+        <v-sheet rounded="rounded-shaped" width="60%" color="background" class='mx-auto mt-4 rounded-shaped' elevation="12">
             <v-timeline line-color="black">
                 <v-timeline-item v-for="(year, i) in years" :key="i" :dot-color="`black`" size="x-small">
                     <template v-slot:opposite>
@@ -8,21 +8,19 @@
                             {{ year.year }}
                         </v-chip>
                     </template>
-                    <v-scroll-x-transition mode="in-out" duration={enter:20,leave:30}>
-                        <v-card :class="`font-weight-light`" width="350" color="surface">
-                            <v-card-item>
-                                <v-card-title u>{{ year.title }}</v-card-title>
-                                <v-card-subtitle class="text-primary">{{ year.subtitle }}</v-card-subtitle>
-                            </v-card-item>
-                            <v-card-text>
-                                {{ year.body }}
-                            </v-card-text>
-                        </v-card>
-                    </v-scroll-x-transition>
+                    <v-card :class="`font-weight-light`" width="350" color="surface">
+                        <v-card-item>
+                            <v-card-title u>{{ year.title }}</v-card-title>
+                            <v-card-subtitle class="text-primary">{{ year.subtitle }}</v-card-subtitle>
+                        </v-card-item>
+                        <v-card-text>
+                            {{ year.body }}
+                        </v-card-text>
+                    </v-card>
                 </v-timeline-item>
             </v-timeline>
-            </v-sheet>
-        <!-- </v-parallax> -->
+        </v-sheet>
+    </v-parallax>
 </template>
   
 <script scoped>
