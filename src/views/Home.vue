@@ -1,19 +1,67 @@
 <template>
-    <div class="d-flex flex-column fill-height justify-center align-center text-white">
-        <div class="typewriter">
-          <v-card-text>
-            <h1>Nice to meet you</h1>
-          </v-card-text>
-        </div>
-    </div>
+  <v-parallax src="/R.png" scale=".25">
+    <v-container fluid="true">
+      <v-spacer class="pt-12"></v-spacer>
+      <v-row no-gutters>
+        <v-col class="mt-16">
+          <p class="text-h1">good </p>
+          <p v-if="morning" class="text-h1 text-primary">morning</p>
+          <p v-if="afternoon" class="text-h1 text-primary">afternoon</p>
+          <p v-if="evening" class="text-h1 text-primary">evening</p>
+        </v-col>
+      </v-row>
+      <v-spacer class="ma-16"></v-spacer>
+    </v-container>
+    <v-spacer class="mt-12"></v-spacer>
+    <v-container fluid="true">
+      <v-row class="mt-16" >
+        <v-col class="mt-16" cols="10" >
+          <p class="text-h2 text-right">I'm Matt the ... |</p>
+        </v-col>
+        <v-col class="mt-12" cols="auto">
+          <p class="text-h5 text-left text-primary align-bottom">software engineer</p>
+          <p class="text-h5 text-left text-primary align-bottom">maker</p>
+          <p class="text-h5 text-left text-primary align-bottom">student</p>
+        </v-col>
+      </v-row>
+    </v-container>
+
+  </v-parallax>
+  <v-sheet height="50px" elevation="12" color="background" class="d-flex align-center justify-center flex-wrap text-center mx-auto">
+    <h1 class="text-h4 font-weight-black text-highlight">Timeline</h1>
+  </v-sheet>
+  <Timeline></Timeline>
 </template>
 
 <script>
+import Timeline from '@/components/Timeline.vue';
 
+export default {
+  components: {
+    Timeline
+  },
+  methods: {
+    getHour: function () {
+      return new Date().getHours();
+    }
+  },
+  mounted: function () {
+    this.hour = this.getHour(),
+    this.morning = this.hour < 12 
+    this.afternoon = 12 <= this.hour && this.hour < 19
+    this.evening = 19 <= this.hour && this.hour < 24
+  },
+  data: () => ({
+    hour: "",
+    morning: "",
+    afternoon: "",
+    evening: ""
+  }),
+}
 </script>
 
 <style>
-.typewriter h1 {
+.typewriter p {
   overflow: scroll;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #7CDEDC;
@@ -25,8 +73,8 @@
   letter-spacing: .15em;
   /* Adjust as needed */
   animation:
-    typing 3.5s steps(30, end),
-    blink-caret .25s step-end infinite;
+    typing 3.7s steps(20, end),
+    blink-caret .5s step-end infinite;
 }
 
 
