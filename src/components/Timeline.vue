@@ -1,5 +1,9 @@
 <template>
     <v-parallax src="/S.png" scale=".25">
+        <v-sheet height="50px" elevation="12" color="background"
+            class="d-flex align-center justify-center flex-wrap text-center mx-auto">
+            <h1 class="text-h4 font-weight-black text-highlight">Timeline</h1>
+        </v-sheet>
         <v-sheet rounded="rounded-shaped" width="60%" color="background" class='mx-auto mt-4 rounded-shaped' elevation="12">
             <v-timeline line-color="black">
                 <v-timeline-item v-for="(year, i) in years" :key="i" :dot-color="`black`" size="x-small">

@@ -6,8 +6,14 @@
             <v-icon end size="x-small" icon="mdi-tilde" color="highlight"></v-icon>
         </v-btn>
         <v-spacer></v-spacer>
-        <v-btn to="/timeline">
-            Timeline
+        <v-btn to="/working" color="primary">
+            <p>contact</p>
+        </v-btn>
+        <v-btn to="/working" color="secondary">
+            <p>resume</p>
+        </v-btn>
+        <v-btn to="/about" color="highlight">
+            About
         </v-btn>
     </v-app-bar>
 </template>
