@@ -4,7 +4,7 @@
       <v-spacer class="pt-12"></v-spacer>
       <v-row no-gutters>
         <v-col class="mt-16">
-          <p class="text-h1">good </p>
+          <p class="text-h1">Good</p>
           <p v-if="morning" class="text-h1 text-primary">morning</p>
           <p v-if="afternoon" class="text-h1 text-primary">afternoon</p>
           <p v-if="evening" class="text-h1 text-primary">evening</p>
