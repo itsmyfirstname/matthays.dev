@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ./dist/
+          path: ./_site/
   deploy:
     needs: build
     environment:
