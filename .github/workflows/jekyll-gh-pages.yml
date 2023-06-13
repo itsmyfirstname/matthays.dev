@@ -3,7 +3,9 @@ name: Build and deploy site
 run-name: ${{ github.job }}	
 on:
   push:
-    branches: [main]
+    branches: 
+      - main
+      - '*actions*'
 permissions:
   contents: read
   pages: write
@@ -17,8 +19,15 @@ jobs:
     name: Jekyll Build
     runs-on: ubuntu-latest
     steps:
-      - name: Build command
-        run: ls
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build
+        run: yarn build
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./dist/
   deploy:
     needs: build
     environment:
@@ -26,14 +35,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
