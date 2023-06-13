@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build command
-        run: ls && yarn build
+        run: ls
   deploy:
     needs: build
     environment:
